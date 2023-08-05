@@ -10,6 +10,9 @@ It has got 3 steps:
 3. repeat step 1 for each link and note their http status.
 4. publish report when all links have been traversed.
 
+<img width="266" alt="Screenshot 2023-08-05 at 5 23 27 PM" src="https://github.com/RoyAmitabh/CLARE/assets/104931628/66a64640-2b89-4cc1-8cb3-d90083cdf22c">
+
+
 Report should look like : 
 
 Page: URL, percentage of broken links
