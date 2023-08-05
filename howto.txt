@@ -1,0 +1,27 @@
+# Steps to test out this POC
+
+1. First of all, you need to start the server in your machine and host the sample  wiki file.
+
+You can also study on how to start working with fastapi here - https://fastapi.tiangolo.com/tutorial/
+Believe me , it wont take more than 5 minutes to kickstart your server with sample page deployed, if you follow these steps:
+go to your terminal and run these commands :
+
+pip install fastapi
+pip install "uvicorn[standard]"
+
+
+
+locate your file using terminal. and run this command - 
+uvicorn sample_wiki:app --reload
+
+It should show something like this :
+
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [27570] using WatchFiles
+INFO:     Started server process [27572]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+
+2. Now you can run your crawler from terminal using python command - python main.py
+
+ 
