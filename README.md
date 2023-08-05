@@ -1,5 +1,7 @@
 # CLARE
+
 CLARE - Crawler for Link Analysis and Reporting
+
 It identifies broken links in the documents. It is assumed that the documents are hosted in some server accessible over HTTP. 
 
 It has got 3 steps:
@@ -9,10 +11,13 @@ It has got 3 steps:
 4. publish report when all links have been traversed.
 
 Report should look like : 
-Page: <URL>, <percentage of broken links>
+
+Page: URL, percentage of broken links
+
 https://www.example.com, 75% 
 
 This repository contains files :
+
 1. crawler - main.py
 2. fastapi - sample_wiki.py. This is for hosting a sample document over localhost to test out the logic. This is optional for crawler.
 3. how to host fastapi - howto.txt
