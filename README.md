@@ -2,6 +2,8 @@
 
 CLARE - Crawler for Link Analysis and Reporting
 
+This has been featured in my article in linkedin - Subscribe on LinkedIn https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7087824083161088002
+
 It identifies broken links in the documents. It is assumed that the documents are hosted in some server accessible over HTTP. 
 
 It has got 3 steps:
